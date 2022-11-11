@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Setup"
+"ProjectName" = "8:Конвертер валют"
 "LanguageId" = "3:1049"
 "CodePage" = "3:1251"
 "UILanguageId" = "3:1049"
@@ -16,6 +16,12 @@
         "Entry"
         {
         "MsmKey" = "8:_0BC2723D54E841E483106F92C8D44AD2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_11D5275252FF4E10AACCC88D1F13C60E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -111,18 +117,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_FD9C7FBA2A094F85BA01BB8271F88623"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_31D13B4B78793B37DE3916E03A2240E8"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_0BC2723D54E841E483106F92C8D44AD2"
         "MsmSig" = "8:_UNDEFINED"
@@ -169,6 +163,12 @@
         "OwnerKey" = "8:_12FDA04A23D4AC2336C4D105C8572CAD"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_31D13B4B78793B37DE3916E03A2240E8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -187,6 +187,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -203,6 +219,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -232,6 +264,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_11D5275252FF4E10AACCC88D1F13C60E"
+            {
+            "SourcePath" = "8:..\\..\\Файлы\\ICO\\iphone-14-2.ico"
+            "TargetName" = "8:iphone-14-2.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_DAA77D0019DC4847B4594C978E25090E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_12FDA04A23D4AC2336C4D105C8572CAD"
             {
             "AssemblyRegister" = "3:1"
@@ -540,26 +592,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FD9C7FBA2A094F85BA01BB8271F88623"
-            {
-            "SourcePath" = "8:..\\..\\Файлы\\ICO\\62885currencyexchange_109202.ico"
-            "TargetName" = "8:62885currencyexchange_109202.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_DAA77D0019DC4847B4594C978E25090E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -650,7 +682,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Setup"
         "ProductCode" = "8:{C064CC91-7F0B-4B52-9C19-DD0B0AB4D932}"
-        "PackageCode" = "8:{F60C187E-0D3C-469D-A64B-8966B29CBFE8}"
+        "PackageCode" = "8:{AEBBBDC3-EE42-4DA6-8DEE-93DA3986E88C}"
         "UpgradeCode" = "8:{CC0EA5EE-495C-496A-AB30-BF76512FA312}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -781,7 +813,7 @@
             "Target" = "8:_0BC2723D54E841E483106F92C8D44AD2"
             "Folder" = "8:_21FC7319F5C747719E69984BCD7E4C90"
             "WorkingFolder" = "8:_DAA77D0019DC4847B4594C978E25090E"
-            "Icon" = "8:_FD9C7FBA2A094F85BA01BB8271F88623"
+            "Icon" = "8:_11D5275252FF4E10AACCC88D1F13C60E"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A314F6FCA24644A0BD53BDBBD922F6C4"
@@ -795,7 +827,7 @@
             "Target" = "8:_0BC2723D54E841E483106F92C8D44AD2"
             "Folder" = "8:_439A81A6087F4C469752CB0EEEABB1C0"
             "WorkingFolder" = "8:_DAA77D0019DC4847B4594C978E25090E"
-            "Icon" = "8:_FD9C7FBA2A094F85BA01BB8271F88623"
+            "Icon" = "8:_11D5275252FF4E10AACCC88D1F13C60E"
             "Feature" = "8:"
             }
         }
